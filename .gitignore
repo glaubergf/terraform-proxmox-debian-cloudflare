@@ -1,0 +1,16 @@
+# CONFIG .gitignore
+
+# Diretórios locais
+.terraform/
+security/
+
+# Arquivos locais
+configs/cloudflare_cloud_init.cfg
+configs/cloudflare_network_config.cfg
+notes/docker-compose.yml.txt
+.terraform.lock.hcl
+plano-cloudflare
+terraform.tfstate*
+terraform.tfvars
+
+# Actions-Runner*
