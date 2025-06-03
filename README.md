@@ -91,6 +91,7 @@ terraform-proxmox-debian-cloudflare
 - `terraform.tfvars` → Valores das variáveis (customização)
 - `cloud_config.yml` → Configurações do Cloud-Init (usuário, pacotes, timezone, scripts)
 - `network_config.yml` → Configuração de rede estática
+- `docker-compose.yml` → Define e organiza contêineres Docker
 - `.env` → Token de acesso ao Cloudflare Tunnel
 
 ## 🚀 Fluxo de Funcionamento
@@ -108,6 +109,18 @@ terraform-proxmox-debian-cloudflare
 6. **Instalação do Docker:** Scripts do Cloud-Init instalam Docker e Docker Compose na VM.
 
 7. **Deploy do container Cloudflared:** O Docker Compose sobe o container do Cloudflared.
+
+## 🛠️ Terraform
+
+Ferramenta de IaC (Infrastructure as Code) que permite definir e gerenciar infraestrutura através de arquivos de configuração declarativos.
+
+Saiba mais: [https://developer.hashicorp.com/terraform](https://developer.hashicorp.com/terraform)
+
+## 🖥️ Proxmox VE
+
+O Proxmox VE é um hipervisor bare-metal, robusto e completo, muito utilizado tanto em ambientes profissionais quanto em homelabs. É uma plataforma de virtualização open-source que permite gerenciar máquinas virtuais e containers de forma eficiente, com suporte a alta disponibilidade, backups, snapshots e uma interface web intuitiva.
+
+Saiba mais: [https://www.proxmox.com/](https://www.proxmox.com/)
 
 ## 🐧 Debian
 
@@ -130,12 +143,6 @@ Saiba mais: [https://cloudinit.readthedocs.io/](https://cloudinit.readthedocs.io
 O Cloudflare usa o *cloudflared* que é um cliente de linha de comando desenvolvido pela própria Cloudflare que permite estabelecer conexões seguras entre seus serviços locais e a rede global da Cloudflare, sem a necessidade de expor diretamente esses serviços à internet pública. Ele atua como um proxy reverso baseado em uma arquitetura de *"zero trust"* (confiança zero).
 
 Saiba mais: [https://www.cloudflare.com/pt-br/](https://www.cloudflare.com/pt-br/)
-
-## 🛠️ Terraform
-
-Ferramenta de IaC (Infrastructure as Code) que permite definir e gerenciar infraestrutura através de arquivos de configuração declarativos.
-
-Saiba mais: [https://developer.hashicorp.com/terraform](https://developer.hashicorp.com/terraform)
 
 ## 🐳 Docker
 
