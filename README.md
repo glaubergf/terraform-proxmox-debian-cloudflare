@@ -2,7 +2,7 @@
 Projeto: terraform-proxmox-debian-cloudflare
 Descrição: Este projeto automatiza o provisionamento de um servidor Debian 12 (Bookworm) no Proxmox, utilizando o Terraform e Cloud-Init, realizando a instalação do Cloudflared em container Docker.
 Autor: Glauber GF (mcnd2)
-Data: 2025-05-07
+Data: 07-05-2025
 ---
 
 ![Image](https://github.com/glaubergf/terraform-proxmox-debian-cloudflare/blob/main/images/tf-pm-cloudflare.png)
