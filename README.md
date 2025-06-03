@@ -40,10 +40,10 @@ Este projeto automatiza a criação de uma VM Debian no Proxmox com Cloudflare T
 - [Debian 12 (Bookworm)](https://www.debian.org/) — Sistema operacional da VM.
 ---
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
-- [Docker](https://www.docker.com/) — Containerização da aplicação sysPass.
+- [Docker](https://www.docker.com/) — Containerização da aplicação Cloudflared.
 ---
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?logo=cloudflare&logoColor=white&style=for-the-badge)
-- [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/) — Túnel seguro.
+- [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/) — Túnel seguro, atua como um proxy reverso.
 
 ## 🛠️ Pré-requisitos
 
