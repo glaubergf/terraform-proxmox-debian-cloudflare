@@ -45,6 +45,19 @@ Este projeto automatiza a criação de uma VM Debian no Proxmox com Cloudflare T
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?logo=cloudflare&logoColor=white&style=for-the-badge)
 - [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/) — Túnel seguro, atua como um proxy reverso.
 
+## 💡 Motivação
+
+Escrevi o post [Configurando o Cloudflare Tunnel Zero Trust](https://sempreupdate.com.br/linux/tutoriais/configurando-o-cloudflare-tunnel-zero-trust/) no site **SempreUpdate** que ensina de forma prática como expor serviços internos (como aplicações web, painéis de controle, ou sites locais) para a internet de maneira segura, sem precisar abrir portas no roteador ou configurar o redirecionamento de NAT.
+
+### 🎯 Objetivo
+
+Apresentar uma solução de acesso remoto seguro utilizando o Cloudflare Tunnel com a plataforma Zero Trust, como alternativa moderna e segura para:
+
+- Evitar exposição direta de servidores;
+- Eliminar a necessidade de IP fixo;
+- Substituir métodos tradicionais como DynDNS + port forwarding;
+- Proteger aplicações com autenticação baseada em identidade (Zero Trust Access).
+
 ## 🛠️ Pré-requisitos
 
 - ✅ Proxmox VE com acesso à API.
